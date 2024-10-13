@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap");
+
+body,
+html {
+  font: normal 700 1rem "Nanum Gothic Coding", serif;
+  color: white;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+p {
+  font-size: 0.75rem;
+}
+
+#password-result {
+  display: block;
+  margin: 30px 20px 20px 20px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 6px;
+  color: black;
+  box-shadow: none;
+  height: 15px;
+  width: 550px;
+}
+
+.copy-button {
+  font: normal 700 1rem "Nanum Gothic Coding", serif;
+  justify-content: center;
+  box-shadow: none;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  height: 35px;
+  width: 60px;
+  margin: auto;
+}
+.generate-password {
+  background-color: blueviolet;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#password-lenght {
+  position: absolute;
+  left: 840px;
+}
+
+#slider-range {
+  position: relative;
+}

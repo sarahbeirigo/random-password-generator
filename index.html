@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Random Password Generator</title>
+</head>
+
+<body>
+
+    <div class="generate-password">
+        <h1 id="h1">GENERATE YOUR RANDOM PASSWORD</h1>
+
+        <span id="password-result"></span>
+        <button onclick="copy()" type="button" class="copy-button">COPY</button>
+
+        <h2>PASSWORD LENGTH: </h2>
+        <input type="range" id="slider-range" name="caracterNumber" min="8" max="64" value="0">
+        <span id="password-lenght"></span>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
