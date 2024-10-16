@@ -32,7 +32,7 @@ p {
   padding: 5px;
   background-color: white;
   border-radius: 6px;
-  border: 2px solid #E0DE1C;
+  border: 3px solid #e0de1c;
   color: black;
   box-shadow: none;
   height: 15px;
@@ -42,34 +42,56 @@ p {
 .copy-button {
   font: normal 700 1rem "Nanum Gothic Coding", serif;
   justify-content: center;
-  box-shadow: none;
-  text-decoration: none;
   background-color: white;
   border-radius: 8px;
-  border: 2px solid #E0DE1C;
+  border: 3px solid #e0de1c;
   color: black;
   height: 35px;
   width: 60px;
   margin: auto;
-}
+} 
+
 .generate-password {
-  background-color: #970CE0;
-  border: 2px solid #E0DE1C;
+  background-color: #970ce0;
+  border: 3px solid #e0de1c;
   padding: 50px;
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-#password-lenght {
-  position: absolute;
-  left: 840px;
-  top: 452px;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 100px;
+}
+.copy-notification {
+  display: block;
+  background-color: #970ce0;
+  border: 3px solid #e0de1c;
+  padding: 10px;
+  border-radius: 12px;
+  justify-self: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  height: 16px;
+  display: none;
+  text-align: center;
+  position: fixed;
+  top: 100px;
 }
 
 #slider-range {
   position: relative;
 }
+#password-lenght {
+  position: absolute;
+  left: 840px;
+  top: 455px;
+}
+
 
 input[type="range"] {
   -webkit-appearance: none;
@@ -82,11 +104,11 @@ input[type="range"] {
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  height: 18px;
-  width: 18px;
-  background-color: #970CE0;
+  height: 20px;
+  width: 20px;
+  background-color: #970ce0;
+  border: 3px solid #e0de1c;
   border-radius: 50%;
-  box-shadow: -407px 0 0 400px #E0DE1C;
-  border: 2px solid #970CE0;
+  box-shadow: -407px 0 0 400px #e0de1c;
+  
 }
-
